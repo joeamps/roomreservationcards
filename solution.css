@@ -1,0 +1,88 @@
+body {
+    font-family: 'Hanken Grotesk', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(228, 228, 228);
+    margin: 0;
+}
+
+
+html, body {
+    height: 100%;
+}
+
+.notetemp{
+    padding: 16px;
+    background-color: transparent;
+    width: 500px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 3px 2px 15px 5px rgba(0,0,0,0.29);
+    border-style: dotted;
+    border-color: gray;
+}
+
+.notetemp-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    background-color: hsl(214, 46%, 42%);
+    border-radius: 20px;
+    height: 40%;
+    width: 100%;
+}
+
+
+.notetemp-mid{
+    display: flex;
+    flex-direction: row;
+    height: 50%;
+}
+
+.notetemp-mid-left{
+    border-radius: 20px;
+    width: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-color: hsl(214, 46%, 42%);
+}
+
+.notetemp-mid-left h1{
+    font-size: larger;
+}
+
+.notetemp-mid-right h1{
+    font-size: larger;
+}
+
+.notetemp-mid-right{
+    border-radius: 20px;
+    width: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    border-style: solid;
+    border-color: hsl(214, 46%, 42%);
+    
+}
+
+.notetemp-bot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+button{
+    background-color: hsl(214, 46%, 42%);
+    width: 50%;
+    height: 30px;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
