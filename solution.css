@@ -39,6 +39,8 @@ html, body {
     display: flex;
     flex-direction: row;
     height: 50%;
+    gap: 5px;
+    padding: 6px;
 }
 
 .notetemp-mid-left{
