@@ -34,6 +34,13 @@ html, body {
     width: 100%;
 }
 
+.notetemp-square{
+    position: relative;
+    width: 4rem;
+    height: 4rem;
+    background: lightgreen;  
+}
+
 
 .notetemp-mid{
     display: flex;
