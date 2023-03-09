@@ -34,11 +34,22 @@ html, body {
     width: 100%;
 }
 
+.notetemp-top h1{
+    padding: 5px;
+}
+
+.notetemp-top h2{
+    padding: 10px;
+}
+
 .notetemp-square{
-    position: relative;
-    width: 4rem;
-    height: 4rem;
+    width: 2rem;
+    height: 2rem;
     background: lightgreen;  
+    padding: 3px;
+    margin-right: 420px;
+    margin-block: auto;
+    margin-bottom: -65px;
 }
 
 
